@@ -11,7 +11,7 @@ Implement OLS via normal equations and compare to scikit-learn.
 
 **Brief Algorithm:**
 
-Normal equation : 𝛽̂ = (𝑋𝑇𝑋)−1𝑋𝑇𝑦 
+Normal equation : 𝛽̂ = (𝑋^𝑇𝑋)^−1𝑋^𝑇𝑦 
 
 ---
 
@@ -70,7 +70,7 @@ stable.
 
 ---
 
-## SAMPLE OUTPUT
+## OUTPUT
 
 ```text
 Closed-form beta: [10.5  2.   1.8] 
@@ -83,7 +83,8 @@ MSE (sklearn): 0.0
 ## RESULT
 
 Students see how closed-form OLS yields coefficients; numerical stability note: prefer 
-SVD in practice. 
+SVD in practice.
+
 ---
 
 ## THEORY
