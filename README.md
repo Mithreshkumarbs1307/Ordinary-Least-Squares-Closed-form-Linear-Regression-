@@ -11,7 +11,7 @@ Implement OLS via normal equations and compare to scikit-learn.
 
 **Brief Algorithm:**
 
-Normal equation : 𝛽̂ = (𝑋𝑇𝑋)−1𝑋𝑇�
+Normal equation : 𝛽̂ = (𝑋𝑇𝑋)−1𝑋𝑇𝑦 
 
 ---
 
